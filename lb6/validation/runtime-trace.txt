@@ -1,0 +1,28 @@
+10421 execve("./bin/lab6-linux-amd64", ["./bin/lab6-linux-amd64", "-mode", "batch", "-source", "images/source.png", "-out", "/tmp/lb6-no-go"], 0x7fff52c31fd8 /* 1 var */) = 0
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10438 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10438 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10450 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10438 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10438 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10438 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10450 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10421 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10439 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10439 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10439 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=10421, si_uid=1000} ---
+10450 +++ exited with 0 +++
+10440 +++ exited with 0 +++
+10438 +++ exited with 0 +++
+10437 +++ exited with 0 +++
+10439 +++ exited with 0 +++
+10421 +++ exited with 0 +++

@@ -1,0 +1,37 @@
+{
+  "pages": 41,
+  "figures": 7,
+  "questions": 5,
+  "source_files": [
+    "go.mod",
+    "cmd/lab6/main.go",
+    "internal/raster/image.go",
+    "internal/raster/transform.go",
+    "internal/raster/demo.go",
+    "internal/desktop/window.go",
+    "internal/desktop/ui.go",
+    "cmd/lab6/main_test.go",
+    "internal/raster/transform_test.go",
+    "internal/desktop/desktop_test.go"
+  ],
+  "full_code_matches_docx": true,
+  "full_code_matches_pdf_ignoring_whitespace": true,
+  "goal_and_conclusion_exact": true,
+  "body_font": "Times New Roman",
+  "font_size_pt": 14,
+  "fonts_in_pdf": [
+    "DejaVuSansMono",
+    "LiberationSerif",
+    "NotoSerif-Regular",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "margins_mm": [
+    30,
+    15,
+    20,
+    20
+  ],
+  "out_of_margin_content": [],
+  "result": "PASS"
+}

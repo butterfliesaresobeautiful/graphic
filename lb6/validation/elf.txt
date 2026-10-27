@@ -1,0 +1,2 @@
+bin/lab6-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, Go BuildID=aSQvOOrzmLWweS3bMWYE/-zxCnPDxoQHc3Den9cfp/A7_zZm1oWWAs2D3L1Y75/IzPuuMNN43svxQUjlGtl, BuildID[sha1]=102262d1b38b32e1e51b221016c001023b5b0285, stripped
+bin/lab6-linux-arm64: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, Go BuildID=RbVh1Ry0JIaXcV5KLqlu/HGotdSjQ1YroOAGnWjQ2/iIcIXJP_UY3RzWiA9ZIA/NkhiRAXZdU657kktA7sz, BuildID[sha1]=863cf18a15b833504d88850e10be948404bb42e1, stripped

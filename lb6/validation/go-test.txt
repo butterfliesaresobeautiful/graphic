@@ -1,0 +1,32 @@
+=== RUN   TestDemoAndBatch
+ЛБ6, вариант 28 % 20 = 8. PNG сохранены: /tmp/TestDemoAndBatch2953401539/001
+Угол: 30°; отражение: vertical; MAE восстановления RGB: 20.619777
+ЛБ6, вариант 28 % 20 = 8. PNG сохранены: /tmp/TestDemoAndBatch2953401539/001/batch
+Угол: 30°; отражение: vertical; MAE восстановления RGB: 20.619777
+--- PASS: TestDemoAndBatch (0.15s)
+PASS
+ok  	graphiclabs/lb6/cmd/lab6	0.152s
+=== RUN   TestActionsAndErrors
+--- PASS: TestActionsAndErrors (0.08s)
+=== RUN   TestNativeWindowWorkflow
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+--- PASS: TestNativeWindowWorkflow (0.53s)
+PASS
+ok  	graphiclabs/lb6/internal/desktop	0.616s
+=== RUN   TestMatrixOrderAndInverse
+--- PASS: TestMatrixOrderAndInverse (0.00s)
+=== RUN   TestReflectionRGBAndSizes
+--- PASS: TestReflectionRGBAndSizes (0.03s)
+=== RUN   TestNinetyDegreesAndClipping
+--- PASS: TestNinetyDegreesAndClipping (0.00s)
+=== RUN   TestRestoresTransformedRaster
+--- PASS: TestRestoresTransformedRaster (0.00s)
+=== RUN   TestExactNonlinearFormula
+--- PASS: TestExactNonlinearFormula (0.04s)
+=== RUN   TestErrorsAndPNG
+--- PASS: TestErrorsAndPNG (0.00s)
+PASS
+ok  	graphiclabs/lb6/internal/raster	0.073s

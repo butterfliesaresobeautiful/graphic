@@ -1,0 +1,14 @@
+{
+  "verified_checksums": 102,
+  "zip_crc": "PASS",
+  "amd64_exit_code": 0,
+  "runtime_path": "/nonexistent",
+  "png_byte_matches": {
+    "affine.png": true,
+    "restored.png": true,
+    "nonlinear.png": true
+  },
+  "runtime_stdout": "ЛБ6, вариант 28 % 20 = 8. PNG сохранены: /tmp/lb6-archive-pgp0wbhy/lab6-variant8/output\nУгол: 30°; отражение: vertical; MAE восстановления RGB: 20.619777\n",
+  "arm64_executed": false,
+  "test": "fresh ZIP extraction"
+}

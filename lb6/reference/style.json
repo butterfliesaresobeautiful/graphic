@@ -1,0 +1,52 @@
+{
+  "purpose": "Formatting reference only, not the assignment source",
+  "source": "TSOS_Lab4_Variant7.docx",
+  "page_mm": [
+    210,
+    297
+  ],
+  "margins_mm": {
+    "left": 20.0025,
+    "right": 14.993055555555555,
+    "top": 14.993055555555555,
+    "bottom": 14.993055555555555
+  },
+  "styles": {
+    "Normal": {
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": false,
+      "line_spacing": 1.5,
+      "first_line_indent_mm": null
+    },
+    "Heading 1": {
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true,
+      "line_spacing": 1.0,
+      "first_line_indent_mm": null
+    },
+    "Heading 2": {
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": true,
+      "line_spacing": 1.0,
+      "first_line_indent_mm": null
+    },
+    "Title": {
+      "font": "Times New Roman",
+      "size_pt": 14.0,
+      "bold": false,
+      "line_spacing": 1.0,
+      "first_line_indent_mm": null
+    },
+    "Caption": {
+      "font": "Times New Roman",
+      "size_pt": 12.0,
+      "bold": false,
+      "line_spacing": 1.0,
+      "first_line_indent_mm": null
+    }
+  },
+  "precedence": "Computer graphics manual requirements override the reference document"
+}

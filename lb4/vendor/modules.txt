@@ -1,0 +1,20 @@
+# github.com/jezek/xgb v1.1.1
+## explicit; go 1.11
+github.com/jezek/xgb
+github.com/jezek/xgb/xproto
+# golang.org/x/image v0.24.0
+## explicit; go 1.18
+golang.org/x/image/draw
+golang.org/x/image/font
+golang.org/x/image/font/opentype
+golang.org/x/image/font/sfnt
+golang.org/x/image/math/f64
+golang.org/x/image/math/fixed
+golang.org/x/image/vector
+# golang.org/x/text v0.22.0
+## explicit; go 1.18
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/transform

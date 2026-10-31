@@ -1,0 +1,34 @@
+=== RUN   TestCLIValidation
+--- PASS: TestCLIValidation (0.00s)
+=== RUN   TestHeadlessDemoAndBatch
+ЛБ2: 28 % 20 = 8. (70,529) → (500,70), R=70. Скопировано 15373; отсечено 0.
+Сохранено: /tmp/TestHeadlessDemoAndBatch3930534880/001
+ЛБ2: 28 % 20 = 8. (70,529) → (500,70), R=70. Скопировано 15373; отсечено 0.
+Сохранено: /tmp/TestHeadlessDemoAndBatch3930534880/001/batch
+--- PASS: TestHeadlessDemoAndBatch (0.22s)
+PASS
+ok  	graphiclabs/lb2/cmd/lab2	0.229s
+=== RUN   TestNativeWindowWorkflow
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+--- PASS: TestNativeWindowWorkflow (1.45s)
+=== RUN   TestActionsRejectInvalidAndKeepState
+--- PASS: TestActionsRejectInvalidAndKeepState (0.03s)
+PASS
+ok  	graphiclabs/lb2/internal/desktop	1.482s
+=== RUN   TestExactRGBTransferAndVariant
+--- PASS: TestExactRGBTransferAndVariant (0.03s)
+=== RUN   TestClippingAndInclusiveBoundary
+--- PASS: TestClippingAndInclusiveBoundary (0.00s)
+=== RUN   TestStateMachineAndFrozenParameters
+--- PASS: TestStateMachineAndFrozenParameters (0.10s)
+=== RUN   TestCubicMappingAndPreservedDisk
+--- PASS: TestCubicMappingAndPreservedDisk (0.05s)
+=== RUN   TestIOAlphaAndOverwriteProtection
+--- PASS: TestIOAlphaAndOverwriteProtection (0.11s)
+=== RUN   TestInvalidParameters
+--- PASS: TestInvalidParameters (0.00s)
+PASS
+ok  	graphiclabs/lb2/internal/imaging	0.293s

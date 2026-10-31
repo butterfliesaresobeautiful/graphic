@@ -1,0 +1,24 @@
+5155  execve("./bin/lab4-linux-amd64", ["./bin/lab4-linux-amd64", "-mode", "batch", "-out", "/tmp/lb4-final-no-go"], 0x7ffd21bcbf48 /* 2 vars */) = 0
+5155  connect(3, {sa_family=AF_UNIX, sun_path="/tmp/.X11-unix/X99"}, 21) = 0
+5155  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5155  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5155  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5155  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5155  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5158  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5160  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5160  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5160  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5157  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5160  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=5155, si_uid=1000} ---
+5160  +++ exited with 0 +++
+5157  +++ exited with 0 +++
+5159  +++ exited with 0 +++
+5156  +++ exited with 0 +++
+5158  +++ exited with 0 +++
+5155  +++ exited with 0 +++

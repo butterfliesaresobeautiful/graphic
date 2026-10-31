@@ -1,0 +1,29 @@
+
+Elf file type is EXEC (Executable file)
+Entry point 0x48b980
+There are 6 program headers, starting at offset 64
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  PHDR           0x0000000000000040 0x0000000000400040 0x0000000000400040
+                 0x0000000000000150 0x0000000000000150  R      0x1000
+  NOTE           0x0000000000000f78 0x0000000000400f78 0x0000000000400f78
+                 0x0000000000000064 0x0000000000000064  R      0x4
+  LOAD           0x0000000000000000 0x0000000000400000 0x0000000000400000
+                 0x00000000001fc2d1 0x00000000001fc2d1  R E    0x1000
+  LOAD           0x00000000001fd000 0x00000000005fd000 0x00000000005fd000
+                 0x000000000021c170 0x000000000021c170  R      0x1000
+  LOAD           0x000000000041a000 0x000000000081a000 0x000000000081a000
+                 0x00000000000e54a0 0x000000000011c220  RW     0x1000
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     0x8
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .note.go.buildid 
+   02     .note.go.buildid .note.gnu.build-id .text 
+   03     .rodata .gopclntab .go.type .go.func 
+   04     .go.buildinfo .go.fipsinfo .go.module .noptrdata .data .bss .noptrbss 
+   05     

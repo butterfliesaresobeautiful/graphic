@@ -1,0 +1,17 @@
+{
+  "metrics_json_byte_match": true,
+  "verified_checksums": 106,
+  "zip_crc": "PASS",
+  "amd64_exit_code": 0,
+  "runtime_path": "/nonexistent",
+  "png_byte_matches": {
+    "source.png": true,
+    "blank.png": true,
+    "transferred.png": true,
+    "axes.png": true,
+    "result.png": true
+  },
+  "runtime_stdout": "ЛБ2: 28 % 20 = 8. (70,529) → (500,70), R=70. Скопировано 15373; отсечено 0.\nСохранено: /tmp/lb2-archive-qr0sazjn/lab2-variant8/output\n",
+  "arm64_executed": false,
+  "test": "fresh ZIP extraction"
+}

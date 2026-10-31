@@ -1,0 +1,41 @@
+{
+  "lab": 4,
+  "individual": 28,
+  "maximum_variant": 20,
+  "variant": 8,
+  "mandatory_sections": 6,
+  "questions": [
+    "Что такое пиксель?",
+    "Что такое растровое изображение?",
+    "Для чего нужны алгоритмы растеризации окружностей?",
+    "Какие ещё алгоритмы растеризации окружностей существуют?"
+  ],
+  "goal": "изучение алгоритмов растеризации окружностей, создание программы для визуализации работы алгоритмов.",
+  "conclusion": "В ходе выполненной работы, мы изучили алгоритмы растеризации окружностей, создали программу для визуализации работы алгоритмов.",
+  "full_source_files": [
+    "go.mod",
+    "cmd/lab4/main.go",
+    "internal/raster/geometry.go",
+    "internal/raster/circle.go",
+    "internal/raster/image.go",
+    "internal/raster/results.go",
+    "internal/native/native.go",
+    "internal/desktop/process.go",
+    "internal/desktop/window.go",
+    "internal/desktop/ui.go",
+    "cmd/lab4/main_test.go",
+    "internal/raster/circle_test.go",
+    "internal/native/native_test.go",
+    "internal/desktop/desktop_test.go"
+  ],
+  "figures": 14,
+  "body_font": "Times New Roman",
+  "body_size_pt": 14,
+  "line_spacing": 1.5,
+  "margins_mm": [
+    30,
+    15,
+    20,
+    20
+  ]
+}

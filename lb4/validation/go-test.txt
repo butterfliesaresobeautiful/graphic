@@ -1,0 +1,65 @@
+=== RUN   TestCLIValidation
+Usage of lab4:
+  -cx int
+    	X центра фигуры / центроида исходного треугольника (default 320)
+  -cy int
+    	Y центра фигуры / центроида исходного треугольника (default 240)
+  -height int
+    	высота белого холста (default 480)
+  -mode string
+    	gui: настольное окно; batch: сохранить результаты (тоже нужен X11) (default "gui")
+  -out string
+    	каталог результатов (default "output")
+  -radius int
+    	радиус в режиме circle (default 140)
+  -shape string
+    	reuleaux или circle (default "reuleaux")
+  -size int
+    	ширина треугольника Рёло (default 280)
+  -source string
+    	фон PNG/JPEG/GIF; по умолчанию белый холст
+  -width int
+    	ширина белого холста (default 640)
+--- PASS: TestCLIValidation (0.00s)
+=== RUN   TestBatch
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+ЛБ4: 28 % 20 = 8. Сохранено: /tmp/TestBatch2709077251/001
+Пикселей: [226 238 226 226]; общих: 208; различающихся: 48
+--- PASS: TestBatch (0.02s)
+PASS
+ok  	graphiclabs/lb4/cmd/lab4	0.026s
+=== RUN   TestNativeWindowWorkflow
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+--- PASS: TestNativeWindowWorkflow (1.04s)
+=== RUN   TestInvalidParametersAndSaveOrder
+--- PASS: TestInvalidParametersAndSaveOrder (0.00s)
+PASS
+ok  	graphiclabs/lb4/internal/desktop	1.049s
+=== RUN   TestRealX11CircleAndReuleaux
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+--- PASS: TestRealX11CircleAndReuleaux (0.02s)
+PASS
+ok  	graphiclabs/lb4/internal/native	0.025s
+=== RUN   TestReuleauxGeometry
+--- PASS: TestReuleauxGeometry (0.02s)
+=== RUN   TestCircleAccuracySymmetryAndConnectivity
+--- PASS: TestCircleAccuracySymmetryAndConnectivity (0.02s)
+=== RUN   TestReuleauxContoursAndTranslation
+--- PASS: TestReuleauxContoursAndTranslation (0.03s)
+=== RUN   TestBresenhamDecisionAndClipping
+--- PASS: TestBresenhamDecisionAndClipping (0.01s)
+=== RUN   TestResultsIOAndInvalidInputs
+--- PASS: TestResultsIOAndInvalidInputs (0.02s)
+PASS
+ok  	graphiclabs/lb4/internal/raster	0.096s

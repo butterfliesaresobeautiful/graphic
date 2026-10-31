@@ -1,0 +1,18 @@
+bin/lab4-linux-amd64: go1.27.3
+	path	graphiclabs/lb4/cmd/lab4
+	mod	graphiclabs/lb4	(devel)	
+	dep	github.com/jezek/xgb	v1.1.1	
+	dep	golang.org/x/image	v0.24.0	
+	dep	golang.org/x/text	v0.22.0	
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	DefaultGODEBUG=containermaxprocs=0,cryptocustomrand=1,decoratemappings=0,gotestjsonbuildtext=1,httpcookiemaxnum=0,httpservecontentkeepheaders=1,httpservecontentmaxranges=1,multipathtcp=0,randseednop=0,rsa1024min=0,tlsmlkem=0,tlssecpmlkem=0,tlssha1=1,tracebacklabels=0,updatemaxprocs=0,urlmaxqueryparams=0,urlstrictcolons=0,winreadlinkvolume=0,winsymlink=0,x509negativeserial=1,x509rsacrt=0,x509sha256skid=0,x509sslcertoverrideplatform=0,x509usepolicies=0
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=linux
+	build	GOAMD64=v1
+	build	vcs=git
+	build	vcs.revision=04f7e945fcf3e6d19c02f0711df76cd9c53a2dff
+	build	vcs.time=2026-10-27T07:59:05Z
+	build	vcs.modified=true

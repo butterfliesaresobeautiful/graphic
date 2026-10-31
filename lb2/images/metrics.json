@@ -1,0 +1,39 @@
+{
+  "Lab": 2,
+  "Individual": 28,
+  "MaxVariant": 20,
+  "Variant": 8,
+  "Config": {
+    "Width": 1000,
+    "Height": 720,
+    "Radius": 70,
+    "SX": 70,
+    "SY": 529,
+    "DX": 500,
+    "DY": 70,
+    "Auto": true
+  },
+  "SourceWidth": 800,
+  "SourceHeight": 600,
+  "Stats": {
+    "Inside": 15373,
+    "Copied": 15373,
+    "Clipped": 0
+  },
+  "Plot": {
+    "Rect": {
+      "Min": {
+        "X": 64,
+        "Y": 240
+      },
+      "Max": {
+        "X": 968,
+        "Y": 672
+      }
+    },
+    "OX": 515.5,
+    "OY": 455.5,
+    "SX": 225.75,
+    "SY": 26.9375
+  }
+}

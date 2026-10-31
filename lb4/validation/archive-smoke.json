@@ -1,0 +1,18 @@
+{
+  "verified_checksums": 121,
+  "zip_crc": "PASS",
+  "amd64_exit_code": 0,
+  "runtime_path": "/nonexistent",
+  "png_byte_matches": {
+    "equation.png": true,
+    "parametric.png": true,
+    "bresenham.png": true,
+    "native.png": true,
+    "overlay.png": true,
+    "difference.png": true,
+    "zoom.png": true
+  },
+  "runtime_stdout": "ЛБ4: 28 % 20 = 8. Сохранено: /tmp/lb4-archive-1o5afdsb/lab4-variant8/output\nПикселей: [793 832 793 793]; общих: 654; различающихся: 317\n",
+  "arm64_executed": false,
+  "test": "fresh ZIP extraction"
+}

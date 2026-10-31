@@ -1,0 +1,4 @@
+*.tmp
+/dist/
+/output/
+__pycache__/

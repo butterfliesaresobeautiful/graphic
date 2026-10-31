@@ -1,0 +1,53 @@
+{
+  "Config": {
+    "Width": 640,
+    "Height": 480,
+    "CX": 320,
+    "CY": 240,
+    "Size": 280,
+    "Radius": 140,
+    "Circle": false
+  },
+  "MethodNames": [
+    "equation",
+    "parametric",
+    "bresenham",
+    "native"
+  ],
+  "Pixels": [
+    793,
+    832,
+    793,
+    793
+  ],
+  "PairwiseXOR": [
+    [
+      0,
+      317,
+      0,
+      0
+    ],
+    [
+      317,
+      0,
+      317,
+      317
+    ],
+    [
+      0,
+      317,
+      0,
+      0
+    ],
+    [
+      0,
+      317,
+      0,
+      0
+    ]
+  ],
+  "Common": 654,
+  "Union": 971,
+  "Different": 317,
+  "NativePrimitive": "X11 PolyArc; line width 0; no antialiasing"
+}

@@ -1,0 +1,4 @@
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+ЛБ4: 28 % 20 = 8. Сохранено: /tmp/lb4-final-no-go
+Пикселей: [793 832 793 793]; общих: 654; различающихся: 317

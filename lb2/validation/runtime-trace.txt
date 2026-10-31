@@ -1,0 +1,21 @@
+2217  execve("./bin/lab2-linux-amd64", ["./bin/lab2-linux-amd64", "-mode", "batch", "-source", "images/source.png", "-out", "/tmp/lb2-rewrite-no-go"], 0x7ffc9009aca8 /* 1 var */) = 0
+2217  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2220  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2220  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2220  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2220  --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=2217, si_uid=1000} ---
+2222  +++ exited with 0 +++
+2221  +++ exited with 0 +++
+2220  +++ exited with 0 +++
+2219  +++ exited with 0 +++
+2218  +++ exited with 0 +++
+2217  +++ exited with 0 +++

@@ -1,0 +1,23 @@
+49938 execve("./bin/lab8-linux-amd64", ["./bin/lab8-linux-amd64", "-mode", "batch", "-source", "images/combined/source.png", "-out", "/tmp/lb8-no-go"], 0x7fff50c34188 /* 1 var */) = 0
+49941 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49941 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49942 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49938 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49943 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49943 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49943 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=49938, si_uid=1000} ---
+49942 +++ exited with 0 +++
+49943 +++ exited with 0 +++
+49941 +++ exited with 0 +++
+49939 +++ exited with 0 +++
+49940 +++ exited with 0 +++
+49938 +++ exited with 0 +++

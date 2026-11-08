@@ -1,0 +1,47 @@
+{
+  "reference_reports": [
+    "lb4/report/report.docx",
+    "lb6/report/report.docx"
+  ],
+  "format_matches": true,
+  "checked_properties": {
+    "page_mm": [
+      210.01,
+      297.0
+    ],
+    "margins_mm": [
+      30.0,
+      14.99,
+      20.0,
+      20.0
+    ],
+    "styles": {
+      "Normal": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 12.51
+      },
+      "Heading 1": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 0.0
+      },
+      "Heading 2": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 0.0
+      },
+      "Listing": {
+        "font": "DejaVu Sans Mono",
+        "pt": 9.0,
+        "line_spacing": 1.0,
+        "first_line_mm": 0.0
+      }
+    },
+    "footer_alignment": 1,
+    "page_number_field": true
+  }
+}

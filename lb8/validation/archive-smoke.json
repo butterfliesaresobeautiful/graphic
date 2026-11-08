@@ -1,0 +1,13 @@
+{
+  "verified_checksums": 150,
+  "zip_crc": "PASS",
+  "amd64_exit_code": 0,
+  "runtime_path": "/nonexistent",
+  "display_present": false,
+  "experiments": 8,
+  "png_byte_matches": 32,
+  "json_byte_matches": 8,
+  "all_matches": true,
+  "arm64_executed": false,
+  "test": "fresh ZIP extraction, full suite"
+}

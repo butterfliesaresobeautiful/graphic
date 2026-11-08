@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1570" viewBox="0 0 900 1570">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#243449"/></marker></defs>
+<rect width="900" height="1570" fill="white"/>
+<g font-family="DejaVu Sans" font-size="22" stroke="#243449" stroke-width="2" fill="white">
+<rect x="230" y="20" width="240" height="45" rx="22.5"/>
+<text x="350.0" y="50.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Пиксель (u, v)</text>
+<rect x="110" y="110" width="480" height="90"/>
+<text x="350.0" y="149.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Учесть центр пикселя и начало;</text>
+<text x="350.0" y="176.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">применить A⁻¹ → (x, y)</text>
+<path d="M350.0 250L550 310.0L350.0 370L150 310.0Z"/>
+<text x="350.0" y="304.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Точка внутри</text>
+<text x="350.0" y="331.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">источника?</text>
+<rect x="110" y="420" width="480" height="80"/>
+<text x="350.0" y="454.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Отметить общую маску;</text>
+<text x="350.0" y="481.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">выбрать метод</text>
+<rect x="110" y="550" width="480" height="90"/>
+<text x="350.0" y="589.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Во всех методах: индексы</text>
+<text x="350.0" y="616.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">за границей ограничивать краем</text>
+<rect x="110" y="690" width="480" height="90"/><path d="M119 690V780M581 690V780"/>
+<text x="350.0" y="729.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Сосед: округлить x и y;</text>
+<text x="350.0" y="756.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">взять один пиксель</text>
+<rect x="110" y="830" width="480" height="90"/><path d="M119 830V920M581 830V920"/>
+<text x="350.0" y="869.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Билинейный: четыре пикселя;</text>
+<text x="350.0" y="896.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">веса (1−a), a, (1−b), b</text>
+<rect x="110" y="970" width="480" height="90"/><path d="M119 970V1060M581 970V1060"/>
+<text x="350.0" y="1009.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Бикубический: 16 пикселей;</text>
+<text x="350.0" y="1036.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">веса wᵢ(a) · wⱼ(b)</text>
+<rect x="110" y="1110" width="480" height="90"/>
+<text x="350.0" y="1149.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Ограничить RGB до 0…255,</text>
+<text x="350.0" y="1176.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">округлить и записать 3 результата</text>
+<rect x="650" y="420" width="230" height="80"/>
+<text x="765.0" y="454.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Оставить</text>
+<text x="765.0" y="481.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">белый фон</text>
+<rect x="200" y="1430" width="300" height="65" rx="32.5"/>
+<text x="350.0" y="1470.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Следующий пиксель</text>
+<polyline points="350,65 350,110" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,200 350,250" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,370 350,420" fill="none" marker-end="url(#arrow)"/>
+<text x="390" y="395.0" text-anchor="middle" fill="#172333" stroke="none" font-size="20">Да</text>
+<polyline points="350,500 350,550" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,640 350,690" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,780 350,830" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,920 350,970" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,1060 350,1110" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,1200 350,1430" fill="none" marker-end="url(#arrow)"/>
+<polyline points="550,310 765,310 765,420" fill="none" marker-end="url(#arrow)"/>
+<text x="610" y="295" text-anchor="middle" fill="#172333" stroke="none" font-size="20">Нет</text>
+<polyline points="765,500 765,1462 500,1462" fill="none" marker-end="url(#arrow)"/></g></svg>

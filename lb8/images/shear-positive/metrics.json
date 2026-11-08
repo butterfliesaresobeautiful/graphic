@@ -1,0 +1,65 @@
+{
+  "Lab": 8,
+  "Individual": 28,
+  "Variant": null,
+  "VariantNote": "В ЛР8.docx нет таблицы вариантов и максимального номера; выполнено общее задание",
+  "Config": {
+    "ScaleX": 1,
+    "ScaleY": 1,
+    "Angle": 0,
+    "ShearX": 0.45,
+    "ShearY": 0.15
+  },
+  "SourceWidth": 480,
+  "SourceHeight": 360,
+  "Geometry": {
+    "Width": 642,
+    "Height": 432,
+    "OriginX": -321,
+    "OriginY": -216,
+    "Forward": {
+      "A": 1,
+      "B": 0.45,
+      "C": 0.15,
+      "D": 1
+    },
+    "Inverse": {
+      "A": 1.0723860589812333,
+      "B": -0.48257372654155495,
+      "C": -0.16085790884718498,
+      "D": 1.0723860589812333
+    }
+  },
+  "CoveredPixels": 161136,
+  "ClippedChannels": [
+    0,
+    0,
+    4230
+  ],
+  "Differences": [
+    {
+      "First": "nearest",
+      "Second": "bilinear",
+      "MAE": 6.458012693211532,
+      "RMSE": 18.882499324508892,
+      "Max": 162,
+      "DifferentPixels": 52705
+    },
+    {
+      "First": "nearest",
+      "Second": "bicubic",
+      "MAE": 7.499673153940357,
+      "RMSE": 18.69447249563129,
+      "Max": 169,
+      "DifferentPixels": 75383
+    },
+    {
+      "First": "bilinear",
+      "Second": "bicubic",
+      "MAE": 2.0691569026577965,
+      "RMSE": 4.603092422678417,
+      "Max": 28,
+      "DifferentPixels": 71416
+    }
+  ]
+}

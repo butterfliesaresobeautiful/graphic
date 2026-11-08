@@ -1,0 +1,36 @@
+=== RUN   TestCLIValidation
+--- PASS: TestCLIValidation (0.01s)
+=== RUN   TestHeadlessDemoAndBatch
+ЛБ8. 480×360 → 639×553; три метода; сохранено: /tmp/TestHeadlessDemoAndBatch2961682221/001
+ЛБ8. 480×360 → 639×553; три метода; сохранено: /tmp/TestHeadlessDemoAndBatch2961682221/001/batch
+--- PASS: TestHeadlessDemoAndBatch (0.35s)
+PASS
+ok  	graphiclabs/lb8/cmd/lab8	0.362s
+=== RUN   TestNativeWindowWorkflow
+XGB: conn.go:47: Could not get authority info: open /home/agent/.Xauthority: no such file or directory
+XGB: conn.go:48: Trying connection without authority info...
+XGB: conn.go:47: Could not get authority info: Xauthority not found: $XAUTHORITY, $HOME not set
+XGB: conn.go:48: Trying connection without authority info...
+--- PASS: TestNativeWindowWorkflow (0.68s)
+=== RUN   TestActionsRejectInvalidAndKeepState
+--- PASS: TestActionsRejectInvalidAndKeepState (0.13s)
+PASS
+ok  	graphiclabs/lb8/internal/desktop	0.820s
+=== RUN   TestLagrangeCardinalityAndPolynomialReproduction
+--- PASS: TestLagrangeCardinalityAndPolynomialReproduction (0.00s)
+=== RUN   TestSamplesAgainstAnalyticSurfaces
+--- PASS: TestSamplesAgainstAnalyticSurfaces (0.00s)
+=== RUN   TestIdentityQuarterTurnAndNonzeroBounds
+--- PASS: TestIdentityQuarterTurnAndNonzeroBounds (0.00s)
+=== RUN   TestAffineGeometryAndInverse
+--- PASS: TestAffineGeometryAndInverse (0.00s)
+=== RUN   TestEdgeReplicationOvershootAndBackground
+--- PASS: TestEdgeReplicationOvershootAndBackground (0.00s)
+=== RUN   TestDifferenceMetricsExcludeBackground
+--- PASS: TestDifferenceMetricsExcludeBackground (0.00s)
+=== RUN   TestIOAlphaAndSourceProtection
+--- PASS: TestIOAlphaAndSourceProtection (0.00s)
+=== RUN   TestInvalidParametersAndOutputLimit
+--- PASS: TestInvalidParametersAndOutputLimit (0.00s)
+PASS
+ok  	graphiclabs/lb8/internal/imaging	0.008s

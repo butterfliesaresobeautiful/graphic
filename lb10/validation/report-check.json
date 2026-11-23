@@ -1,0 +1,44 @@
+{
+  "pages": 52,
+  "figures": 7,
+  "questions": 8,
+  "source_files": [
+    "go.mod",
+    "cmd/lab10/demo.go",
+    "cmd/lab10/main.go",
+    "internal/bezier/bezier_test.go",
+    "internal/bezier/curve.go",
+    "internal/bezier/demo.go",
+    "internal/bezier/surface.go",
+    "internal/desktop/input.go",
+    "internal/desktop/model.go",
+    "internal/desktop/ui.go",
+    "internal/desktop/window.go",
+    "internal/desktop/window_test.go",
+    "internal/scene/camera.go",
+    "internal/scene/draw.go",
+    "internal/scene/png.go",
+    "internal/scene/surface.go"
+  ],
+  "full_code_matches_docx": true,
+  "full_code_matches_pdf_ignoring_whitespace": true,
+  "goal_and_conclusion_exact": true,
+  "body_font": "Times New Roman",
+  "font_size_pt": 14,
+  "fonts_in_pdf": [
+    "DejaVuSansMono",
+    "LiberationSerif",
+    "NotoSerif-Bold",
+    "NotoSerif-Regular",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "margins_mm": [
+    30,
+    15,
+    20,
+    20
+  ],
+  "out_of_margin_content": [],
+  "result": "PASS"
+}

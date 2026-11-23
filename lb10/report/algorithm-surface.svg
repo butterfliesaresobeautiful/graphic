@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1060" viewBox="0 0 900 1060">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#243449"/></marker></defs>
+<rect width="900" height="1060" fill="white"/>
+<g font-family="DejaVu Sans" font-size="22" stroke="#243449" stroke-width="2" fill="white">
+<rect x="225" y="20" width="250" height="50" rx="25.0"/>
+<text x="350.0" y="53.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Начало</text>
+<path d="M106 110H616L594 190H84Z"/>
+<text x="350.0" y="144.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Контрольная сетка P,</text>
+<text x="350.0" y="171.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">параметры u, v и числа Nᵤ, Nᵥ</text>
+<rect x="84" y="235" width="532" height="88"/>
+<text x="350.0" y="273.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Вычислить базис Бернштейна</text>
+<text x="350.0" y="300.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">для каждого направления</text>
+<rect x="84" y="370" width="532" height="80"/>
+<text x="350.0" y="404.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Суммированием получить S(u, v)</text>
+<text x="350.0" y="431.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">и сетку (Nᵤ + 1) × (Nᵥ + 1)</text>
+<rect x="84" y="496" width="532" height="78"/>
+<text x="350.0" y="529.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Разделить каждую строку в u</text>
+<text x="350.0" y="556.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">и собрать две сетки</text>
+<rect x="84" y="620" width="532" height="78"/>
+<text x="350.0" y="653.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Разделить столбцы этих сеток в v</text>
+<text x="350.0" y="680.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">и собрать четыре участка</text>
+<path d="M106 748H616L594 832H84Z"/>
+<text x="350.0" y="784.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Показать поверхность, точку S(u, v)</text>
+<text x="350.0" y="811.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">и выбранные контрольные сетки</text>
+<rect x="225" y="899" width="250" height="50" rx="25.0"/>
+<text x="350.0" y="932.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Конец</text>
+<polyline points="350,70 350,110" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,190 350,235" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,323 350,370" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,450 350,496" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,574 350,620" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,698 350,748" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,832 350,899" fill="none" marker-end="url(#arrow)"/></g></svg>

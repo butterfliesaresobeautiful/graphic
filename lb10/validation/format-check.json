@@ -1,0 +1,223 @@
+{
+  "reference_reports": [
+    "lb4/report/report.docx",
+    "lb6/report/report.docx"
+  ],
+  "format_matches": true,
+  "checked_properties": {
+    "page_mm": [
+      210.01,
+      297.0
+    ],
+    "margins_mm": [
+      30.0,
+      14.99,
+      20.0,
+      20.0
+    ],
+    "header_footer_mm": [
+      8.01,
+      10.0
+    ],
+    "styles": {
+      "Normal": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 12.51,
+        "space_before_pt": null,
+        "space_after_pt": 0.0
+      },
+      "Heading 1": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 0.0,
+        "space_before_pt": 10.0,
+        "space_after_pt": 6.0
+      },
+      "Heading 2": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 0.0,
+        "space_before_pt": 10.0,
+        "space_after_pt": 6.0
+      },
+      "Heading 3": {
+        "font": "Times New Roman",
+        "pt": 14.0,
+        "line_spacing": 1.5,
+        "first_line_mm": 0.0,
+        "space_before_pt": 10.0,
+        "space_after_pt": 6.0
+      },
+      "Listing": {
+        "font": "DejaVu Sans Mono",
+        "pt": 9.0,
+        "line_spacing": 1.0,
+        "first_line_mm": 0.0,
+        "space_before_pt": 0.0,
+        "space_after_pt": 0.0
+      }
+    },
+    "footer_alignment": 1,
+    "page_number_field": true,
+    "cover": [
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": true
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 2,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 2,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 2,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": null,
+        "blank": true,
+        "indent_mm": null,
+        "bold": false
+      },
+      {
+        "style": "Normal",
+        "alignment": 1,
+        "blank": false,
+        "indent_mm": 0.0,
+        "bold": false
+      }
+    ]
+  }
+}

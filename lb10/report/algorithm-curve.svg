@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1110" viewBox="0 0 900 1110">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#243449"/></marker></defs>
+<rect width="900" height="1110" fill="white"/>
+<g font-family="DejaVu Sans" font-size="22" stroke="#243449" stroke-width="2" fill="white">
+<rect x="225" y="20" width="250" height="50" rx="25.0"/>
+<text x="350.0" y="53.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Начало</text>
+<path d="M112 110H610L588 190H90Z"/>
+<text x="350.0" y="144.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Список вершин P, степень d,</text>
+<text x="350.0" y="171.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">параметр t, число интервалов N</text>
+<rect x="90" y="235" width="520" height="75"/>
+<text x="350.0" y="267.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Сформировать сегменты по d + 1</text>
+<text x="350.0" y="294.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">вершин с общей конечной точкой</text>
+<path d="M350.0 357L550 409.5L350.0 462L150 409.5Z"/>
+<text x="350.0" y="404.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Последний сегмент</text>
+<text x="350.0" y="431.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">неполный?</text>
+<rect x="606" y="368" width="252" height="80"/>
+<text x="732.0" y="402.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Повысить степень</text>
+<text x="732.0" y="429.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">последнего сегмента</text>
+<rect x="90" y="512" width="520" height="84"/>
+<text x="350.0" y="548.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Для каждого сегмента вычислить</text>
+<text x="350.0" y="575.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">B(k/N) методом де Кастельжо</text>
+<rect x="90" y="642" width="520" height="80"/>
+<text x="350.0" y="676.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Для выбранного сегмента вычислить</text>
+<text x="350.0" y="703.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">все уровни для параметра t</text>
+<rect x="90" y="765" width="520" height="80"/>
+<text x="350.0" y="799.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Построить две контрольные ломаные</text>
+<text x="350.0" y="826.5" text-anchor="middle" fill="#172333" stroke="none" font-size="22">из крайних точек уровней</text>
+<path d="M112 892H610L588 962H90Z"/>
+<text x="350.0" y="935.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Вывести ломаную отсчётов и этапы</text>
+<rect x="225" y="1010" width="250" height="50" rx="25.0"/>
+<text x="350.0" y="1043.0" text-anchor="middle" fill="#172333" stroke="none" font-size="22">Конец</text>
+<polyline points="350,70 350,110" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,190 350,235" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,310 350,357" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,462 350,512" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,596 350,642" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,722 350,765" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,845 350,892" fill="none" marker-end="url(#arrow)"/>
+<polyline points="350,962 350,1010" fill="none" marker-end="url(#arrow)"/>
+<text x="320" y="491" text-anchor="middle" fill="#172333" stroke="none" font-size="20">Нет</text>
+<polyline points="550,409 606,409" fill="none" marker-end="url(#arrow)"/>
+<text x="576" y="393" text-anchor="middle" fill="#172333" stroke="none" font-size="20">Да</text>
+<polyline points="732,448 732,486 350,486" fill="none" marker-end="url(#arrow)"/></g></svg>

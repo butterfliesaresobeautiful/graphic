@@ -46,7 +46,7 @@ chmod +x bin/lab8-linux-amd64
 ./bin/lab8-linux-amd64
 ```
 
-## ЛБ8
+## ЛБ10
 
 Запуск:
 
